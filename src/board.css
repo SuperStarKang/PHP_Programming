@@ -1,0 +1,83 @@
+main {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+table {
+  width: calc(100% - 100px);
+  height: 400px;
+}
+
+.글쓰기wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  width: calc(100% - 100px);
+  font-size: larger;
+}
+
+table tr {
+  height: 20px;
+}
+
+table tr th {
+  text-align: left;
+  width: 50px;
+}
+
+.table_header_title {
+  width: 300px;
+}
+
+.table_header_writer {
+  width: 300px;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: rgb(195, 222, 245);
+}
+
+th {
+  background-color: rgb(113, 188, 203);
+}
+
+.table_header_date,
+.table_header_like,
+.table_header_comment,
+.table_header_hit {
+  text-align: center;
+  width: 32px;
+}
+
+.table_cell_date,
+.table_cell_like,
+.table_cell_comment,
+.table_cell_hit {
+  text-align: center;
+  width: 10px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  height: 30px;
+}
+
+.focused {
+  font-weight: 600;
+}
+
+.header_board_title {
+  width: 300px;
+}
